@@ -11,9 +11,10 @@ You can run this by setting up anaconda with an environment that installs the im
 
 ### Backtracking Algorithm
 
-Implemented the backtracking search algorithm in the AIMA textbook
+Implemented the backtracking search algorithm in the AIMA textbook. 
 
 #### Optimizations
+Note: Unit tests were added to validate the optimization algorithms.
 
 ##### Arc Consistency (2-consistency)
 
@@ -25,13 +26,7 @@ Also added the minimum remaining value (most contrained variable) heuristic as p
 
 ##### Least Constraining Value
 
-This heuristic was implemented for when we pick a value for the variable 
-Select the order of the values in the domain of a variable
-Ordering with most count to optimize the constraint satisfaction process
-
-least constraining value
-Used unit tests to validate the optimizations
-
+This heuristic was implemented for when we pick a value for the variable. It picks the variable that leaves the most options for subsequent variable selection. This is somewhat different from MRV in that MRV tries to find the value with the least constraint while least constraining value tries to pick the value that allows the next variable to have more options so it tries to see if there is a solution in the current branch of the search.
 
 ### Outcome
 
