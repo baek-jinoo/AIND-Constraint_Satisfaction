@@ -4,7 +4,7 @@ To launch the notebook, run the following command from a terminal with anaconda3
 
     jupyter notebook AIND-Constraint_Satisfaction.ipynb
 
-Notes by Jin:
+## Notes by Jin:
 
 You can run this by setting up anaconda with an environment that installs the imported modules shown in the jupyter notebook
 
